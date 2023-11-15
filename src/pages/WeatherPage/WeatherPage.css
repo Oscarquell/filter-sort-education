@@ -1,0 +1,40 @@
+.weather-container {
+    margin-top: 20vh;
+    min-height: 80vh;
+    transition: 1s ease-in-out;
+}
+
+.weather-inputs {
+    text-align: center;
+}
+
+.weather-inputs input {
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 15px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.weather-inputs input:hover {
+    background: white;
+}
+
+.weather-result-wrap {
+    text-align: center;
+}
+
+.weather-result-temp span {
+    margin: 15px;
+}
+
+.weather-result-img {
+    width: 200px;
+    height: auto;
+    margin: 0 auto;
+}
+
+.weather-result-img img {
+    width: 100%;
+    height: auto;
+}
